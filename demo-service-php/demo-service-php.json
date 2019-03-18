@@ -155,8 +155,8 @@
                                 }
                             },
                             {
-                              "name": "proxy",
-                              "image": "quay.io/gambol99/keycloak-proxy:latest",
+                              "name": "gatekeeper",
+                              "image": "quay.io/keycloak/keycloak-gatekeeper:latest",
                               "imagePullPolicy": "Always",
                               "args": [
                                 "--resources=uri=/public|white-listed=true",
